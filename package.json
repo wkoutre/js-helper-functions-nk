@@ -1,0 +1,10 @@
+{
+  "name": "js-helper-functions-nk",
+  "version": "0.0.1",
+  "description": "A collection of helper functions for various tasks extracted from different projects I have worked on.",
+  "main": "index.js",
+  "repository": "https://github.com/wkoutre/js-helper-functions-nk",
+  "author": "Nick Koutrelakos",
+  "license": "MIT",
+  "private": false
+}
