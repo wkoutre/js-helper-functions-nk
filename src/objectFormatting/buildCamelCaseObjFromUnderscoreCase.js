@@ -1,6 +1,6 @@
-const { convertUnderscoreToCamelCase } = require("../stringFormatting/");
+import { convertUnderscoreToCamelCase } from "../stringFormatting";
 
-const buildCamelCaseObjFromUnderscoreCase = unformattedObj => {
+export const buildCamelCaseObjFromUnderscoreCase = unformattedObj => {
   const builder = {};
 
   Object.keys(unformattedObj).forEach(key => {
@@ -19,20 +19,3 @@ const buildCamelCaseObjFromUnderscoreCase = unformattedObj => {
 
   return builder;
 };
-
-const testObj = {
-  starts_at_hour: {
-    beg_hour: "09",
-    minute: "00",
-    meridian: "PM",
-    date_time: {
-      start_time: "06",
-      end_of_day: "17"
-    },
-    lunch_time: ["14", "21", 12]
-  }
-};
-
-console.log(buildCamelCaseObjFromUnderscoreCase(testObj));
-
-module.exports = { buildCamelCaseObjFromUnderscoreCase };

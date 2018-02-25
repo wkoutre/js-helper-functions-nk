@@ -1,1 +1,1 @@
-export * from "./buildCamelCaseObjFromUnderscoreCase.js";
+export * from "./buildCamelCaseObjFromUnderscoreCase";

@@ -1,4 +1,4 @@
-const convertUnderscoreToCamelCase = underscoredString => {
+export const convertUnderscoreToCamelCase = underscoredString => {
   let buildingStr = "";
   let i = 0;
 
@@ -23,5 +23,3 @@ const convertUnderscoreToCamelCase = underscoredString => {
 
   return buildingStr;
 };
-
-module.exports = { convertUnderscoreToCamelCase };

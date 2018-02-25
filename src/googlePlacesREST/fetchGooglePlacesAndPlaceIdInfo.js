@@ -1,4 +1,4 @@
-const fetchGooglePlacesAndPlaceIdInfo = async ({
+export const fetchGooglePlacesAndPlaceIdInfo = async ({
   searchText,
   googlePlacesKey
 }) => {
@@ -17,5 +17,3 @@ const fetchGooglePlacesAndPlaceIdInfo = async ({
     placeIdData
   };
 };
-
-module.exports = { fetchGooglePlacesAndPlaceIdInfo };
