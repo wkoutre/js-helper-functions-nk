@@ -1,2 +1,3 @@
-export * from "./stringFormatting";
-export * from "./googlePlacesREST";
+export * from "./src/stringFormatting";
+export * from "./src/objectFormatting";
+export * from "./src/googlePlacesREST";
